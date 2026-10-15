@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chiến Lược Marketing cho Nhà Quản Trị | Marketing Strategy Hub</title>
+<meta name="description" content="Website học tập 9 buổi môn Chiến Lược Marketing cho Nhà Quản Trị: nội dung, khung phân tích, bài tập và tài nguyên.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body{background:#EFEFEF;color:#1E293B;font-family:'Plus Jakarta Sans',sans-serif}
+.pin-card{background:#fff;border-radius:.85rem;box-shadow:0 2px 8px rgba(0,0,0,.06);transition:all .25s}
+.pin-card:hover{transform:translateY(-4px);box-shadow:0 10px 20px rgba(0,0,0,.12)}
+</style>
+</head>
+<body class="min-h-screen flex flex-col justify-between antialiased">
+
+<header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
+<div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+<a href="index.html" class="flex items-center gap-2.5 shrink-0"><div class="w-9 h-9 rounded-xl bg-rose-600 flex items-center justify-center text-white"><i class="fa-solid fa-chess-knight"></i></div>
+<span class="font-black text-xl tracking-tight">Marketing<span class="text-rose-600">Strategy</span></span></a>
+<div class="flex-1 max-w-xl mx-4 relative"><input id="searchInput" onkeyup="filterPosts()" placeholder="Tìm kiếm STP, SWOT, brand, ROMI..." class="w-full bg-slate-100 text-xs font-medium pl-10 pr-4 py-2.5 rounded-full border border-slate-200 outline-none focus:bg-white focus:border-rose-600">
+<i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 text-xs"></i></div>
+<a href="about.html" class="bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full text-xs font-bold text-slate-700 shrink-0">Về môn học</a></div>
+<div class="bg-slate-900 px-4 py-2 overflow-x-auto whitespace-nowrap"><div class="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold text-white">
+<span onclick="filterTag('all')" class="px-3 py-1.5 rounded-md bg-slate-600 cursor-pointer">Tất cả 9 buổi</span><span onclick="filterTag('nen-tang')" class="px-3 py-1.5 rounded-md text-white cursor-pointer hover:opacity-90" style="background:#D97706">Nền tảng</span><span onclick="filterTag('phan-tich')" class="px-3 py-1.5 rounded-md text-white cursor-pointer hover:opacity-90" style="background:#0284C7">Phân tích</span><span onclick="filterTag('chien-luoc')" class="px-3 py-1.5 rounded-md text-white cursor-pointer hover:opacity-90" style="background:#E11D48">Hoạch định chiến lược</span><span onclick="filterTag('trien-khai')" class="px-3 py-1.5 rounded-md text-white cursor-pointer hover:opacity-90" style="background:#0D9488">Triển khai & Đo lường</span>
+<a href="tai-nguyen/index.html" class="px-3 py-1.5 rounded-md bg-violet-600"><i class="fa-solid fa-folder-open"></i> Tài nguyên</a></div></div>
+</header>
+<main class="max-w-7xl mx-auto px-4 py-6 flex-grow w-full space-y-6">
+<section class="bg-white rounded-2xl border border-slate-200 p-6"><h1 class="text-2xl font-black">Chiến Lược Marketing cho Nhà Quản Trị</h1>
+<p class="text-sm text-slate-500 mt-1">Lộ trình 9 buổi: từ phân tích môi trường, STP, thương hiệu, 7Ps, truyền thông đến đo lường và trình bày kế hoạch chiến lược.</p></section>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="postsContainer"><div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="nen-tang" data-keywords="tổng quan chiến lược marketing &amp; vai trò nhà quản trị ansoff matrix bcg / ge-mckinsey marketing strategy canvas nền tảng">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#D97706"><i class="fa-solid fa-compass text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 1</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#D97706">Nền tảng</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Tổng quan chiến lược marketing &amp; vai trò nhà quản trị</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Từ marketing chiến thuật đến tư duy chiến lược gắn với mục tiêu kinh doanh.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-1.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#D97706'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="phan-tich" data-keywords="phân tích môi trường &amp; lợi thế cạnh tranh pestel porter&#x27;s 5 forces vrio swot/tows phân tích">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#0284C7"><i class="fa-solid fa-earth-asia text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 2</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#0284C7">Phân tích</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Phân tích môi trường &amp; lợi thế cạnh tranh</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Đọc môi trường vĩ mô, ngành và nội bộ để tìm cơ hội chiến lược.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-2.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#0284C7'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="phan-tich" data-keywords="nghiên cứu thị trường &amp; insight khách hàng customer journey map jobs-to-be-done persona phân tích">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#0284C7"><i class="fa-solid fa-magnifying-glass-chart text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 3</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#0284C7">Phân tích</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Nghiên cứu thị trường &amp; insight khách hàng</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Biến dữ liệu thành insight để ra quyết định marketing.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-3.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#0284C7'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="chien-luoc" data-keywords="phân khúc, lựa chọn thị trường mục tiêu &amp; định vị (stp) segmentation matrix perceptual map positioning statement hoạch định chiến lược">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#E11D48"><i class="fa-solid fa-bullseye text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 4</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#E11D48">Hoạch định chiến lược</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Phân khúc, lựa chọn thị trường mục tiêu &amp; định vị (STP)</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Chọn đúng khách hàng và khác biệt hóa trong tâm trí họ.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-4.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#E11D48'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="chien-luoc" data-keywords="chiến lược thương hiệu &amp; đề xuất giá trị keller&#x27;s cbbe value proposition canvas brand prism hoạch định chiến lược">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#E11D48"><i class="fa-solid fa-gem text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 5</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#E11D48">Hoạch định chiến lược</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Chiến lược thương hiệu &amp; đề xuất giá trị</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Xây dựng tài sản thương hiệu và value proposition khác biệt.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-5.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#E11D48'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="chien-luoc" data-keywords="chiến lược sản phẩm, giá &amp; kênh phân phối product portfolio value-based pricing channel design hoạch định chiến lược">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#E11D48"><i class="fa-solid fa-layer-group text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 6</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#E11D48">Hoạch định chiến lược</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Chiến lược sản phẩm, giá &amp; kênh phân phối</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Kết hợp 7Ps thành một hệ thống nhất quán, tạo giá trị và thu về giá trị.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-6.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#E11D48'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="trien-khai" data-keywords="truyền thông tích hợp &amp; marketing số imc planner peso model funnel aarrr triển khai &amp; đo lường">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#0D9488"><i class="fa-solid fa-bullhorn text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 7</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#0D9488">Triển khai & Đo lường</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Truyền thông tích hợp &amp; marketing số</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Phối hợp kênh truyền thông truyền thống và số xoay quanh một thông điệp.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-7.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#0D9488'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="trien-khai" data-keywords="đo lường hiệu quả, ngân sách &amp; roi marketing balanced scorecard clv/cac budget allocation triển khai &amp; đo lường">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#0D9488"><i class="fa-solid fa-chart-line text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 8</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#0D9488">Triển khai & Đo lường</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Đo lường hiệu quả, ngân sách &amp; ROI marketing</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Chứng minh giá trị marketing bằng chỉ số mà ban lãnh đạo quan tâm.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-8.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#0D9488'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+<div class="pin-card post-item overflow-hidden flex flex-col justify-between" data-tag="trien-khai" data-keywords="triển khai, tổ chức &amp; trình bày kế hoạch chiến lược strategic marketing plan roadmap &amp; okr risk matrix triển khai &amp; đo lường">
+<div><div class="p-6 text-white text-center space-y-2" style="background:#0D9488"><i class="fa-solid fa-flag-checkered text-4xl"></i><h3 class="font-black text-lg uppercase tracking-wider">Buổi 9</h3></div>
+<div class="p-4 space-y-2"><span class="text-[10px] font-bold uppercase tracking-widest" style="color:#0D9488">Triển khai & Đo lường</span>
+<h4 class="font-extrabold text-sm text-slate-800 leading-snug">Triển khai, tổ chức &amp; trình bày kế hoạch chiến lược</h4>
+<p class="text-xs text-slate-500 leading-relaxed line-clamp-3">Hợp nhất mọi thành phần thành kế hoạch có thể trình lên hội đồng quản trị.</p></div></div>
+<div class="p-4 pt-0"><a href="buoi-hoc/buoi-9.html" class="block w-full py-2 bg-slate-100 text-center rounded-lg text-xs font-bold text-slate-700 hover:text-white transition" onmouseover="this.style.background='#0D9488'" onmouseout="this.style.background=''">Xem chi tiết</a></div></div>
+</div></main>
+<footer class="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">© 2026 Marketing Strategy Hub • Chiến Lược Marketing cho Nhà Quản Trị</footer>
+
+<script>
+function filterPosts(){const q=document.getElementById('searchInput').value.toLowerCase().trim();
+document.querySelectorAll('.post-item').forEach(c=>{c.style.display=(c.innerText.toLowerCase().includes(q)||c.dataset.keywords.includes(q))?'flex':'none'})}
+function filterTag(t){document.querySelectorAll('.post-item').forEach(c=>{c.style.display=(t==='all'||c.dataset.tag===t)?'flex':'none'})}
+</script></body></html>
