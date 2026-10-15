@@ -130,7 +130,7 @@ idx = head(COURSE, f"Website học tập 9 buổi môn {COURSE}: nội dung, khu
 <a href="about.html" class="bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full text-xs font-bold text-slate-700 shrink-0">Về môn học</a></div>
 <div class="bg-slate-900 px-4 py-2 overflow-x-auto whitespace-nowrap"><div class="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold text-white">
 <span onclick="filterTag('all')" class="px-3 py-1.5 rounded-md bg-slate-600 cursor-pointer">Tất cả 9 buổi</span>{tags}
-<a href="tai-nguyen/index.html" class="px-3 py-1.5 rounded-md bg-violet-600"><i class="fa-solid fa-folder-open"></i> Tài nguyên</a></div></div>
+<a href="https://dapxe.info/tailieu" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-md bg-violet-600"><i class="fa-solid fa-folder-open"></i> Tài nguyên</a></div></div>
 </header>
 <main class="max-w-7xl mx-auto px-4 py-6 flex-grow w-full space-y-6">
 <section class="bg-white rounded-2xl border border-slate-200 p-6"><h1 class="text-2xl font-black">{COURSE}</h1>
